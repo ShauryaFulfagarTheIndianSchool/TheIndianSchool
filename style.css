@@ -272,3 +272,12 @@ footer h2{
 .socials a:hover{
   transform: scale(1.2);
 }
+
+#preloader{
+  background: #000 url(./loader.gif) no-repeat center center;
+  background-size: 17%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
