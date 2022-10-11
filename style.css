@@ -42,7 +42,7 @@ header {
 }
 
 .container_solid .title_wrapper h1 {
-  background: url(./background.jpg);
+  background: url(https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2020/01/frontiers-psychology-stray-dogs-human-cues-behavior.jpg?resize=940%2C528&ssl=1);
   background-size: 100vw auto;
   background-position: center;
   -webkit-text-fill-color: transparent;
@@ -52,7 +52,7 @@ header {
 }
 
 .container_image {
-  background-image: url(./background.jpg);
+  background-image: url(https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2020/01/frontiers-psychology-stray-dogs-human-cues-behavior.jpg?resize=940%2C528&ssl=1);
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
@@ -167,12 +167,12 @@ body section {
 }
 
 #card2:hover {
-  background-color: #d38d8d47;
+  background-color: #bc8dd347;
   transition: 0.25s ease;
 }
 
 #card3:hover {
-  background-color: #9cdb9747;
+  background-color: #dbd49747;
   transition: 0.25s ease;
 }
 
@@ -226,7 +226,7 @@ body section {
   }
 }
 
-.footer{
+.footer {
   background-color: #000;
   align-items: center;
   justify-content: center;
@@ -235,28 +235,28 @@ body section {
   padding-left: 495px;
 }
 
-.footer-text{
-  padding-top: 15px;
+.footer-text {
   color: #fff;
 }
-#social-text{
+
+#social-text {
   padding-left: 172px;
   padding-bottom: 10px;
 }
 
-
-footer h2{
+footer h2 {
   color: #fff;
+  padding-left: 60px;
 }
 
-.socials{
+.socials {
   justify-content: space-around;
   display: flex;
   padding-right: 450px;
   padding-bottom: 60px;
 }
 
-.socials a{
+.socials a {
   font-size: 38px;
   color: #ffffff;
   width: 60px;
@@ -269,6 +269,23 @@ footer h2{
   border-radius: 50%;
 }
 
-.socials a:hover{
+.socials a:hover {
   transform: scale(1.2);
+}
+
+.abt-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 40px;
+  color: #202a4a;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px #eee5d8, 4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.abt-btn:hover {
+  box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.15s ease;
 }
