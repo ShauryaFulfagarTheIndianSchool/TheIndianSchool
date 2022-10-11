@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+    margin-left: 132px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 320px;
+    margin: 20px;
+    padding: 40px 30px;
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: -6px -6px 20px #eee5d8, 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card .content-box {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card .img-box img {
+    max-width: 120px;
+}
+
+.card .img-box {
+    position: relative;
+    text-align: center;
+}
+
+.card .content-box p {
+    color: #202a4a;
+}
+
+.card .content-box h2 {
+    color: #202a4a;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+.card .content-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 40px;
+    color: #202a4a;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: -4px -4px 15px #eee5d8, 4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card .content-box a:hover {
+    box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.15s ease;
+
+
+}
+
+.card a:hover span {
+    display: block;
+    transform: scale(0.95);
+    cursor: pointer;
+    transition: 0.21s ease;
+}
+
+.card:hover .content-box {
+    transform: scale(0.95);
+    transition: 0.21s ease;
+    cursor: default;
+
+}
+
+.card:hover .img-box {
+    transform: scale(0.85);
+    transition: 0.21s ease;
+}
+
+#card1:hover {
+    background-color: #d0c49d47;
+    transition: 0.25s ease;
+}
+
+#card2:hover {
+    background-color: #bc8dd347;
+    transition: 0.25s ease;
+}

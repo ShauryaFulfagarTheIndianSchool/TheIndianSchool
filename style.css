@@ -41,6 +41,16 @@ header {
   font-weight: 900;
 }
 
+
+#text2{
+  text-shadow: 5px 5px #000;
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+
 .container_solid .title_wrapper h1 {
   background: url(https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2020/01/frontiers-psychology-stray-dogs-human-cues-behavior.jpg?resize=940%2C528&ssl=1);
   background-size: 100vw auto;

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<head>
+    <link rel="stylesheet" href="adopt.css">
+</head>
 <body>
 
     <style>
@@ -10,6 +13,11 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
+        }
+
+        .AdoptHeader{
+            margin-left: 520px;
+            margin-top: 20px;
         }
 
         nav {
@@ -131,16 +139,42 @@
             <i class="fas fa-bars"></i>
         </label>
         <ul>
-            <li><a href="/Github/TheIndianSchool/">Home</a></li>
+            <li><a href="/Github/TheIndianSchool/index.html">Home</a></li>
             <li><a href="/Github/TheIndianSchool/About/about.html">About Us</a></li>
-            <li><a href="/Github/TheIndianSchool/Donate/donate.html">Donate</a></li>
             <li><a href="/Github/TheIndianSchool/Contact/contact.html">Contact</a></li>
             <li><a class="active" href="/Github/TheIndianSchool/Adopt/adopt.html">Adopt</a></li>
         </ul>
     </nav>
-</body>
-
-</html>
+    <h1 class="AdoptHeader">Adopt a pet today</h1>
+    <p class="AdoptHeader">It's your call!</p>
+    <div class="cards-container">
+        <div class="card" id="card1">
+            <div class="img-box">
+                <img src="https://img.icons8.com/fluency/65/FA5252/dog-park.png"/>
+            </div>
+            <div class="content-box">
+                <h2>Adopt a Dog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam omnis dolore amet
+                    sequi
+                    nobis provident nisi esse optio recusandae quod.</p>
+                <a href=""><span>Adopt!</span></a>
+            </div>
+        </div>
+        <div class="card" id="card2" data-aos="fade-up">
+            <div class="img-box">
+                <img src="https://img.icons8.com/dusk/100/000000/cat--v1.png"/>
+            </div>
+            <div class="content-box">
+                <h2>Adopt a cat</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam omnis dolore amet
+                    sequi
+                    nobis provident nisi esse optio recusandae quod.</p>
+                <a href=""><span>Adopt!</span></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
 <style>
     .footer {
         background-color: #1b1b1b;
