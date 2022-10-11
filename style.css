@@ -89,6 +89,8 @@ body section {
 }
 
 .cards-container {
+  margin-left: 139px;
+  text-align: center;
   position: relative;
   display: flex;
   justify-content: space-around;
