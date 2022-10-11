@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <body>
 
     <style>
@@ -123,6 +122,16 @@
                 color: #fff;
             }
         }
+
+        #write {
+            height: 200px;
+            font-size: 20px;
+            margin: 50px;
+        }
+
+        #headertext {
+            margin-left: 50px
+        }
     </style>
     <nav>
         <div class="logo">SAT - Save Animals Today</div>
@@ -138,71 +147,95 @@
         </ul>
     </nav>
 
-    <h2>Contact us at shaurya.fulfagar@gmail.com </h2>
-    <h2>Ph. no: +918810534441</h2>
-<style>
-    .footer {
-        background-color: #1b1b1b;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        margin-top: 300px;
-        padding-left: 495px;
-    }
+    <h2 id="headertext">Contact us at shaurya.fulfagar@gmail.com </h2>
+    <h2 id="headertext">Ph. no: +918810534441</h2>
+    <input id="write" type="text" placeholder="Write to us" />
+    <button type="submit" onclick="sendAlert()" id="subBtn">Submit</button>
+    <script>function sendAlert() { alert('sent') }</script>
+    <style>
 
-    .footer-text {
-        color: #fff;
-    }
+        #subBtn {
+            border: none;
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border-radius: 40px;
+            color: #202a4a;
+            background-color: #f7e4e4;
+            font-size: 16px;
+            text-decoration: none;
+            box-shadow: -4px -4px 15px #ffffff, 4px 4px 15px rgba(0, 0, 0, 0.1);
+        }
 
-    #social-text {
-        padding-left: 172px;
-        padding-bottom: 10px;
-    }
+        #subBtn:hover {
+            box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: 0.15s ease;
 
-    footer h2 {
-        color: #fff;
-        padding-left: 60px;
-    }
 
-    .socials {
-        justify-content: space-around;
-        display: flex;
-        padding-right: 450px;
-        padding-bottom: 60px;
-    }
+        }
 
-    .socials a {
-        font-size: 38px;
-        color: #ffffff;
-        width: 60px;
-        height: 60px;
-        text-align: center;
-        transition: 0.4s all;
-        line-height: 58px;
-        cursor: pointer;
-        background: #314652;
-        border-radius: 50%;
-    }
+        .footer {
+            background-color: #1b1b1b;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-left: 495px;
+        }
 
-    .socials a:hover {
-        transform: scale(1.2);
-    }
-</style>
+        .footer-text {
+            color: #fff;
+        }
 
-<footer>
-    <div class="footer">
-        <h2>SAT-Save Animals Today</h2>
-        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p class="footer-text">Icons by Icons8.com</p>
-        <div class="socials">
-            <a href="MAILTO:shaurya.fulfagar@gmail.com"><img
-                    src="https://img.icons8.com/external-bearicons-outline-color-bearicons/26/228BE6/external-Email-email-bearicons-outline-color-bearicons.png" /></a>
+        #social-text {
+            padding-left: 172px;
+            padding-bottom: 10px;
+        }
+
+        footer h2 {
+            color: #fff;
+            padding-left: 60px;
+        }
+
+        .socials {
+            justify-content: space-around;
+            display: flex;
+            padding-right: 450px;
+            padding-bottom: 60px;
+        }
+
+        .socials a {
+            font-size: 38px;
+            color: #ffffff;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            transition: 0.4s all;
+            line-height: 58px;
+            cursor: pointer;
+            background: #314652;
+            border-radius: 50%;
+        }
+
+        .socials a:hover {
+            transform: scale(1.2);
+        }
+    </style>
+
+    <footer>
+        <div class="footer">
+            <h2>SAT-Save Animals Today</h2>
+            <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="footer-text">Icons by Icons8.com</p>
+            <div class="socials">
+                <a href="MAILTO:shaurya.fulfagar@gmail.com"><img
+                        src="https://img.icons8.com/external-bearicons-outline-color-bearicons/26/228BE6/external-Email-email-bearicons-outline-color-bearicons.png" /></a>
+
+            </div>
 
         </div>
 
-    </div>
-
-</footer>
+    </footer>
 </body>
 
 </html>
