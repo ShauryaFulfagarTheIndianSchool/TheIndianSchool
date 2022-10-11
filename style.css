@@ -42,7 +42,7 @@ header {
 }
 
 .container_solid .title_wrapper h1 {
-  background: url(https://wallpaperaccess.com/full/1951190.jpg);
+  background: url(./background.jpg);
   background-size: 100vw auto;
   background-position: center;
   -webkit-text-fill-color: transparent;
@@ -52,7 +52,7 @@ header {
 }
 
 .container_image {
-  background-image: url(https://wallpaperaccess.com/full/1951190.jpg);
+  background-image: url(./background.jpg);
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
