@@ -89,14 +89,12 @@ body section {
 }
 
 .cards-container {
-  margin-left: 139px;
-  text-align: center;
-  position: relative;
+  left: 50%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   width: 1100px;
   margin-bottom: 30px;
+  margin-left: 155px;
 }
 
 .card {
